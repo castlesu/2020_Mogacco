@@ -13,6 +13,8 @@ DFS : Depth First Search (깊이 우선 탐색)
 2. BFS보다 간단함
 3. BFS보다 느림
 4. 스택 또는 재귀함수(보편적)로 구현
+![image](https://user-images.githubusercontent.com/26875426/86904852-3c34f400-c14c-11ea-9bf6-9d77b984a978.png)
+
 
 BFS : Breadth First Search (너비 우선 탐색)
 루트 노드(또는 임의의 노드)에서 시작하여 인접한 노드를 먼저 탐색하는 방식
