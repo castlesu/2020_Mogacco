@@ -13,6 +13,7 @@ DFS : Depth First Search (깊이 우선 탐색)
 2. BFS보다 간단함
 3. BFS보다 느림
 4. 스택 또는 재귀함수(보편적)로 구현
+
 ![image](https://user-images.githubusercontent.com/26875426/86904852-3c34f400-c14c-11ea-9bf6-9d77b984a978.png)
 
 
@@ -22,7 +23,11 @@ BFS : Breadth First Search (너비 우선 탐색)
 1. (주로) 두 노드사이의 최단경로를 찾을 때
 2. 큐로 구현(FIFO 원칙)
 
---> 문제 유형별 적합한 것
+
+![image](https://user-images.githubusercontent.com/26875426/86904972-6686b180-c14c-11ea-8b33-21d2a34def11.png)
+
+
+-----문제 유형별 적합한 것-----
 1. 모든 정점 방문 : 둘다 가능
 2. 경로의 특징 : DFS
 3. 최단거리/임의의 경로 : BFS
