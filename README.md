@@ -37,7 +37,7 @@ BFS : Breadth First Search (너비 우선 탐색)
 ## 2020. 07. 15(week3)
 최단 경로 탐색 중 다익스트라 알고리즘 내용요약
 
-< 다익스트라(Dijkstra) 알고리즘 >
+다익스트라(Dijkstra) 알고리즘 
 1. 다익스트라 알고리즘의 이해
 단일 출발 (single-source shortest path problem) 최단 경로 문제
 그래프 내의 특정 노드 u 와 그래프 내 다른 모든 노드 각각의 가장 짧은 경로를 찾는 문제
