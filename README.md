@@ -70,17 +70,17 @@ BFS : Breadth First Search (너비 우선 탐색)
     
 2. 알고리즘
 
--1 Selection Procedure : 당시에 가장 최적의 답을 구한 뒤 이를 부분해 집합에 추가한다.
+-1. Selection Procedure : 당시에 가장 최적의 답을 구한 뒤 이를 부분해 집합에 추가한다.
 
--2 Feasibility Check : 새로운 부분해 집합이 적절한지 검사한다. 
+-2. Feasibility Check : 새로운 부분해 집합이 적절한지 검사한다. 
 
--3 Solution Check : 새로운 부분해 집합이 문제의 답이 맞는지 검사한다. 문제의 답이 완성되지 않았다면 1번부터 다시 시작한다.
+-3. Solution Check : 새로운 부분해 집합이 문제의 답이 맞는지 검사한다. 문제의 답이 완성되지 않았다면 1번부터 다시 시작한다.
 
 
 3. 활용
   Prim Algorithm, Kruskal Algorithm, Dijkstra Algorithm 등 에서 그리디 알고리즘이 적용 가능하다. 
   
-  -1 Prim Algorithm
+  -1. Prim Algorithm
   
   임의의 정점(vertex)에서 가중치가 가장 작은 간선(edge)을 선택, 
   선택된 정점(vertex)와 연결된 간선(edge)들 중에 가장 가중치가 작은 것들을 선택(단, cycle을 만드는 경우는 제외)
@@ -89,7 +89,7 @@ BFS : Breadth First Search (너비 우선 탐색)
 ![image](https://user-images.githubusercontent.com/26875426/88521139-80bafd80-d02f-11ea-945b-11b98b7c5775.png)
 
 
-  -2 Kruskal Algorithm
+  -2.  Kruskal Algorithm
   
   그래프의 모든 간선(edge)중에서 가중치가 가장 작은 것부터 차례대로 선택(단, Cycle을 만드는 경우는 제외)
    
