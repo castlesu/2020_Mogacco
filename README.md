@@ -41,16 +41,58 @@ BFS : Breadth First Search (너비 우선 탐색)
 최단 경로 탐색 중 다익스트라 알고리즘 내용요약
 
 다익스트라(Dijkstra) 알고리즘 
-1. 다익스트라 알고리즘의 이해
+1. 정의
 
     단일 출발 (single-source shortest path problem) 최단 경로 문제
   
     그래프 내의 특정 노드 u 와 그래프 내 다른 모든 노드 각각의 가장 짧은 경로를 찾는 문제
 
-2. 다익스트라 알고리즘의 로직
+2. 알고리즘 (로직)
 
     첫 정점을 기준으로 연결되어 있는 정점들을 추가해 가며, 최단 거리를 갱신하는 기법
   
     너비우선탐색(BFS)와 유사
   
     우선순위 큐를 활용한 다익스트라 알고리즘
+ 
+ ![image](https://user-images.githubusercontent.com/26875426/88520827-14d89500-d02f-11ea-95c5-97aee2afa16b.png)
+
+
+## 2020.07.27(week4)
+그리디 알고리즘 내용요약
+
+그리디 알고리즘(Greedy Algorithm) (a.k.a 탐욕 알고리즘)
+
+1. 정의 : 미리 정한 기준에 따라서 최적의 답을 선택하는 알고리즘
+
+    그리디 알고리즘은 동적계획법(Dynamic Programming)보다 효율적이지만, 반드시 최적의 답을 구하지 못한다.
+    주로 근사치 추정을 위해 사용한다. 
+    
+2. 알고리즘
+
+-1. Selection Procedure : 당시에 가장 최적의 답을 구한 뒤 이를 부분해 집합에 추가한다.
+
+-2. Feasibility Check : 새로운 부분해 집합이 적절한지 검사한다. 
+
+-3. Solution Check : 새로운 부분해 집합이 문제의 답이 맞는지 검사한다. 문제의 답이 완성되지 않았다면 1번부터 다시 시작한다.
+
+
+3. 활용
+  Prim Algorithm, Kruskal Algorithm, Dijkstra Algorithm 등 에서 그리디 알고리즘이 적용 가능하다. 
+  
+  -1. Prim Algorithm
+  
+  임의의 정점(vertex)에서 가중치가 가장 작은 간선(edge)을 선택, 
+  선택된 정점(vertex)와 연결된 간선(edge)들 중에 가장 가중치가 작은 것들을 선택(단, cycle을 만드는 경우는 제외)
+  
+  
+![image](https://user-images.githubusercontent.com/26875426/88521139-80bafd80-d02f-11ea-945b-11b98b7c5775.png)
+
+
+  -2.  Kruskal Algorithm
+  
+  그래프의 모든 간선(edge)중에서 가중치가 가장 작은 것부터 차례대로 선택(단, Cycle을 만드는 경우는 제외)
+   
+   
+![image](https://user-images.githubusercontent.com/26875426/88521158-87497500-d02f-11ea-98b8-12cc38489011.png)
+
