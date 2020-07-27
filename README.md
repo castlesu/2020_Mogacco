@@ -57,5 +57,6 @@ BFS : Breadth First Search (너비 우선 탐색)
 
 ## 2020.07.27(week4)
 그리디 알고리즘 내용요약
+![image](https://user-images.githubusercontent.com/26875426/88519223-b90d0c80-d02c-11ea-9965-598e1b8b7548.png)
 
 
