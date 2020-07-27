@@ -54,6 +54,9 @@ BFS : Breadth First Search (너비 우선 탐색)
     너비우선탐색(BFS)와 유사
   
     우선순위 큐를 활용한 다익스트라 알고리즘
+ 
+ ![image](https://user-images.githubusercontent.com/26875426/88520827-14d89500-d02f-11ea-95c5-97aee2afa16b.png)
+
 
 ## 2020.07.27(week4)
 그리디 알고리즘 내용요약
@@ -75,5 +78,16 @@ BFS : Breadth First Search (너비 우선 탐색)
 
 
 3. 활용
+  Prim Algorithm, Kruskal Algorithm, Dijkstra Algorithm 등에서 그리디 알고리즘이 적용 가능하다. 
+  
+  1) Prim Algorithm
+  
+  임의의 정점(vertex)에서 가중치가 가장 작은 간선(edge)을 선택, 
+  선택된 정점(vertex)와 연결된 간선(edge)들 중에 가장 가중치가 작은 것들을 선택(단, cycle을 만드는 경우는 제외)
+  
+  
+  2) Kruskal Algorithm
+  
+  그래프의 모든 간선(edge)중에서 가중치가 가장 작은 것부터 차례대로 선택(단, Cycle을 만드는 경우는 제외)
    
 
