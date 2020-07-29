@@ -96,3 +96,15 @@ BFS : Breadth First Search (너비 우선 탐색)
    
 ![image](https://user-images.githubusercontent.com/26875426/88521158-87497500-d02f-11ea-98b8-12cc38489011.png)
 
+## 2020.07.29(week5)
+플로이드 와샬(Floyd Warshall Algorithm) 알고리즘 내용요약
+
+1. 정의 : 모든 정점에서 모든 정점으로의 최단 경로
+    음의 가중치를 가진 간선 사용 가능
+    optimal substructure의 개념을 이용하여 최단 경로를 찾음
+2. 알고리즘
+    -1. 2차원 배열을 만들고 그래프의 간선 정보를 저장(두 정점이 직접적으로 연결되어 있지 않으면 INF(무한대), 자기 자신이면 0)
+    -2. 경유지 1~V 까지 순회하여 2차원 테이블을 업데이트 
+
+
+
