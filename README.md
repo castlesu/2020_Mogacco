@@ -106,5 +106,7 @@ BFS : Breadth First Search (너비 우선 탐색)
     -1. 2차원 배열을 만들고 그래프의 간선 정보를 저장(두 정점이 직접적으로 연결되어 있지 않으면 INF(무한대), 자기 자신이면 0)
     -2. 경유지 1~V 까지 순회하여 2차원 테이블을 업데이트 
 
+![image](https://user-images.githubusercontent.com/26875426/88772528-de7c5080-d1bb-11ea-94b1-30e5b35bd430.png)
+
 
 
