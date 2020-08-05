@@ -112,7 +112,20 @@ BFS : Breadth First Search (너비 우선 탐색)
     -2. 경유지 1~V 까지 순회하여 2차원 테이블을 업데이트 
     
 
-![image](https://user-images.githubusercontent.com/26875426/88772528-de7c5080-d1bb-11ea-94b1-30e5b35bd430.png)
+
+![image](https://user-images.githubusercontent.com/26875426/88772528-de7c5080-d1bb-11ea-94b1-30e5b35bd430.png
 
 
+## 2020.08.05(week6)
+다이나믹 프로그래밍(Dynamic Programming)- 동적 계획법
+
+1. 정의 : 큰 문제를 작은 문제로 나누어 푸는 알고리즘
+
+    
+    큰 문제를 한 번에 해결하기 힘들 때 작은 여러 개의 문제로 나누어서 푸는 기법인데요. 작은 문제들을 풀다보면 같은 문제들을 반복해서 푸는 경우가 생깁니다. 그 문제들을 매번 재계산하지 않고 값을 저장해두었다가 재사용하는 기법
+    
+
+2. 알고리즘
+
+    
 
