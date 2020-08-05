@@ -112,7 +112,7 @@ BFS : Breadth First Search (너비 우선 탐색)
     -2. 경유지 1~V 까지 순회하여 2차원 테이블을 업데이트 
 
 
-![image](https://user-images.githubusercontent.com/26875426/88772528-de7c5080-d1bb-11ea-94b1-30e5b35bd430.png
+![image](https://user-images.githubusercontent.com/26875426/88772528-de7c5080-d1bb-11ea-94b1-30e5b35bd430.png)
 
 
 ## 2020.08.05(week6)
