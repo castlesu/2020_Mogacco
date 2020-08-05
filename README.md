@@ -140,3 +140,6 @@ BFS : Breadth First Search (너비 우선 탐색)
         
          재귀 호출 시, 반복적으로 계산되는 것들의 계산 횟수를 줄이기 위해 이전에 계산했던 값을 저장해두었다가 나중에 재사용하는 방법
 
+![image](https://user-images.githubusercontent.com/26875426/89389620-9bccf200-d740-11ea-969f-5d0149b2c4c3.png)
+
+
